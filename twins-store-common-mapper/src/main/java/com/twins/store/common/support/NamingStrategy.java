@@ -13,4 +13,5 @@ public class NamingStrategy extends ImplicitNamingStrategyComponentPathImpl {
     protected Identifier toIdentifier(String stringForm, MetadataBuildingContext buildingContext) {
         return super.toIdentifier("" + stringForm, buildingContext);
     }
+
 }

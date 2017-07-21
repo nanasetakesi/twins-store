@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-    url: dbc:mysql://127.0.0.1:3306/twins_store?characterEncoding=UTF-8&amp;allowMultiQueries=true
+    url: jdbc:mysql://127.0.0.1:3306/twins_store?characterEncoding=UTF-8&amp;allowMultiQueries=true
     data-username: root
     password: 123456
   jpa:
