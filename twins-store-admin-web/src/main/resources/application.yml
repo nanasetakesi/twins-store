@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    content-type: text/html
+    mode: LEGACYHTML5
+    check-template: false

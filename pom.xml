@@ -13,6 +13,8 @@
         <module>twins-store-common</module>
         <module>twins-store-common-pojo</module>
         <module>twins-store-common-mapper</module>
+        <module>twins-store-common-config</module>
+        <module>twins-store-admin-web</module>
     </modules>
 
     <properties>
